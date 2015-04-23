@@ -32,6 +32,7 @@ CSOURCES = ares__close_sockets.c	\
   ares_parse_soa_reply.c		\
   ares_parse_srv_reply.c		\
   ares_parse_txt_reply.c		\
+  ares_parse_uri_reply.c		\
   ares_platform.c			\
   ares_process.c			\
   ares_query.c				\
@@ -102,6 +103,7 @@ MANPAGES = ares_cancel.3		\
   ares_parse_soa_reply.3		\
   ares_parse_srv_reply.3		\
   ares_parse_txt_reply.3		\
+  ares_parse_uri_reply.3		\
   ares_process.3			\
   ares_query.3				\
   ares_save_options.3			\
@@ -145,6 +147,7 @@ HTMLPAGES = ares_cancel.html		\
   ares_parse_soa_reply.html		\
   ares_parse_srv_reply.html		\
   ares_parse_txt_reply.html		\
+  ares_parse_uri_reply.html		\
   ares_process.html			\
   ares_query.html			\
   ares_save_options.html		\
@@ -188,6 +191,7 @@ PDFPAGES = ares_cancel.pdf		\
   ares_parse_soa_reply.pdf		\
   ares_parse_srv_reply.pdf		\
   ares_parse_txt_reply.pdf		\
+  ares_parse_uri_reply.pdf		\
   ares_process.pdf			\
   ares_query.pdf			\
   ares_save_options.pdf			\

@@ -60,6 +60,12 @@ associated with those structures.
 When used to free the data returned by ares_parse_soa_reply(3) this
 will free the ares_soa_reply structure, along with any additional storage
 associated with those structure.
+.TP
+.B ares_parse_uri_reply(3)
+When used to free the data returned by ares_parse_uri_reply(3) this
+will free the whole linked list of ares_uri_reply structures returned
+by ares_parse_uri_reply(3), along with any additional storage
+associated with those structures.
 .SH RETURN VALUE
 The ares_free_data() function does not return a value.
 .SH AVAILABILITY
